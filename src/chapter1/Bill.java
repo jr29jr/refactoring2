@@ -6,6 +6,7 @@ public class Bill {
         int volumeCredits = 0;
         String result = String.format("청구내역 (고객명: %S)\n",invoice);
 
+        result += "adsf";
         return result;
     }
 
